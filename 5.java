@@ -1,5 +1,5 @@
 import java.util.*;
-class Five{
+class Five {
   public static void main(String[] args) {
   String str = "ARRAY";
   char[] matrix = str.toCharArray();
@@ -7,7 +7,8 @@ class Five{
     for (int j = matrix.length - i; j > i; j++) {
     if (j == i + 1) {
       System.out.println(matrix[j]);
-  } else {
+    } 
+    else {
       System.out.print(matrix[j]);
     }
     }
